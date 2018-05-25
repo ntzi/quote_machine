@@ -1,25 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400i');
 
 body {
-
   background-color: white; /* #aeeaea */
-  /* transition: all 2s ease-in-out;  */
-
 }
 
 .fa {
-  /* text-align: center; */
-  /* padding: 14px; */
-  /* font-size: 20px; */
-  /* width: 30px; */
-  /* text-align: center; */
-  /* text-decoration: none; */
   margin: 0 0 0 5%;
-  /* height: 50px; */
-  /* font-size: 50px; */
   color: white;
-
-  /* border-radius: 50px; */
 }
 
 .fa:hover {
@@ -32,9 +19,13 @@ body {
 }
 
 .message_css{
-  height: 15em;
-  padding: 1em 2em 2em 2em;
   background-color: white;
+}
+
+.message {
+  height: auto;
+  min-height: 250px;
+  padding: 5%;
 }
 
 .quote_css {
@@ -50,21 +41,12 @@ body {
   border-radius: 10px;
   padding: 10px;
   font-size: 14px;
-  /* margin: 0px 30px 0px 0px; */
-  /* height: 50px; */
   margin: 4px 5% 2em 0;
-  /* align-self */
   background-color: white;
   border-color: white;
-  /* border: none; */
   outline:none;
-
-
 }
+
 .btn:hover {
-
-  /* background-color: #aeeaea; */
-  /* border-color: #aeeaea; */
   filter:brightness(110%);
-
 }
